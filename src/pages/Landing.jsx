@@ -223,8 +223,8 @@ export default function Landing({ onEnterApp }) {
         <div className="pb-orb pb-orb-b" />
         <div className="pb-hero-left">
           <div className="pb-eyebrow"><span className="pb-eyebrow-dot" />Now building · Early access open</div>
-          <h1 className="pb-headline">The app that gets more <em>valuable</em> the longer you use it.</h1>
-          <p className="pb-sub">Playback connects your Spotify, photos, and reflections to build a living record of your growth — one that compounds in meaning over months and years, not days.</p>
+          <h1 className="pb-headline">Your memories deserve <em>more</em> than a scroll.</h1>
+          <p className="pb-sub">Playback turns your music, photos, and reflections into a living record of your life — so you can revisit where you've been, understand who you're becoming, and build the next chapter with intention.</p>
           {heroSuccess ? (
             <div className="pb-success"><span>✦</span> You're on the list. We'll be in touch.</div>
           ) : (
@@ -375,7 +375,7 @@ export default function Landing({ onEnterApp }) {
       <section className="pb-section pb-cta" id="waitlist">
         <div className="pb-inner" style={{ position: 'relative', zIndex: 1 }}>
           <span className="pb-section-eyebrow reveal">Early access</span>
-          <h2 className="pb-section-headline reveal">Start building your record today. Thank yourself in three years.</h2>
+          <h2 className="pb-section-headline reveal">Your life is worth playing back. Start building your record today.</h2>
           <p className="pb-section-sub reveal">The best time to start was a year ago. The second best time is now.</p>
           {ctaSuccess ? (
             <div className="pb-success" style={{ justifyContent: 'center', color: 'var(--sky)' }}><span>✦</span> You're on the list. We'll be in touch.</div>
@@ -394,7 +394,7 @@ export default function Landing({ onEnterApp }) {
           <LogoSVG id="footer-lg" size={26} />
           <span className="pb-logo-text" style={{ fontSize: 18 }}>Playback</span>
         </div>
-        <span className="pb-footer-note">© 2025 Playback · Know who you're becoming</span>
+        <span className="pb-footer-note">© 2025 Playback · A record of the life you're building.</span>
       </footer>
     </div>
   );
